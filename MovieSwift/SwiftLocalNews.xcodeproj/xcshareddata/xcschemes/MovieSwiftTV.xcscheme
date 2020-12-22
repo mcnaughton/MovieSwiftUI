@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "69414A0B23C33FBE0056FBDF"
-               BuildableName = "MovieSwiftTV.app"
-               BlueprintName = "MovieSwiftTV"
-               ReferencedContainer = "container:MovieSwift.xcodeproj">
+               BuildableName = "SwiftLocalNewsTV.app"
+               BlueprintName = "SwiftLocalNewsTV"
+               ReferencedContainer = "container:SwiftLocalNews.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69414A0B23C33FBE0056FBDF"
-            BuildableName = "MovieSwiftTV.app"
-            BlueprintName = "MovieSwiftTV"
-            ReferencedContainer = "container:MovieSwift.xcodeproj">
+            BuildableName = "SwiftLocalNewsTV.app"
+            BlueprintName = "SwiftLocalNewsTV"
+            ReferencedContainer = "container:SwiftLocalNews.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69414A0B23C33FBE0056FBDF"
-            BuildableName = "MovieSwiftTV.app"
-            BlueprintName = "MovieSwiftTV"
-            ReferencedContainer = "container:MovieSwift.xcodeproj">
+            BuildableName = "SwiftLocalNewsTV.app"
+            BlueprintName = "SwiftLocalNewsTV"
+            ReferencedContainer = "container:SwiftLocalNews.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

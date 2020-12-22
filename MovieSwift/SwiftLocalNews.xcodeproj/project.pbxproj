@@ -185,7 +185,7 @@
 		6924393B22BF43D300C796CB /* ImagesCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCarouselView.swift; sourceTree = "<group>"; };
 		6926CFC222F9C5C0004F72AD /* FullscreenMoviePosterImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenMoviePosterImage.swift; sourceTree = "<group>"; };
 		692AA62E22AD3DFA0054DA84 /* MoviesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesList.swift; sourceTree = "<group>"; };
-		69414A0C23C33FBE0056FBDF /* MovieSwiftTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieSwiftTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69414A0C23C33FBE0056FBDF /* SwiftLocalNewsTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLocalNewsTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69414A0E23C33FBE0056FBDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69414A1023C33FBE0056FBDF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		69414A1223C33FC10056FBDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -258,7 +258,7 @@
 		69FB61EA22BA2E1900CBEEC7 /* DiscoverCoverImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCoverImage.swift; sourceTree = "<group>"; };
 		69FC640822C3A72F0043AB37 /* FjallaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FjallaOne-Regular.ttf"; sourceTree = "<group>"; };
 		69FD020B22B55268003E529E /* MoviesGenreList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesGenreList.swift; sourceTree = "<group>"; };
-		69FFAF7C22A99F1100801F3C /* MovieSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69FFAF7C22A99F1100801F3C /* SwiftLocalNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLocalNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FFAF8522A99F1200801F3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69FFAF8822A99F1200801F3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		69FFAF8B22A99F1200801F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -696,8 +696,8 @@
 		69FFAF7D22A99F1100801F3C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69FFAF7C22A99F1100801F3C /* MovieSwift.app */,
-				69414A0C23C33FBE0056FBDF /* MovieSwiftTV.app */,
+				69FFAF7C22A99F1100801F3C /* SwiftLocalNews.app */,
+				69414A0C23C33FBE0056FBDF /* SwiftLocalNewsTV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -796,9 +796,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69414A0B23C33FBE0056FBDF /* MovieSwiftTV */ = {
+		69414A0B23C33FBE0056FBDF /* SwiftLocalNewsTV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69414A1D23C33FC10056FBDF /* Build configuration list for PBXNativeTarget "MovieSwiftTV" */;
+			buildConfigurationList = 69414A1D23C33FC10056FBDF /* Build configuration list for PBXNativeTarget "SwiftLocalNewsTV" */;
 			buildPhases = (
 				69414A0823C33FBE0056FBDF /* Sources */,
 				69414A0923C33FBE0056FBDF /* Frameworks */,
@@ -808,17 +808,17 @@
 			);
 			dependencies = (
 			);
-			name = MovieSwiftTV;
+			name = SwiftLocalNewsTV;
 			packageProductDependencies = (
 				69414A3F23C35C1D0056FBDF /* SwiftUIFlux */,
 			);
 			productName = MovieSwiftTV;
-			productReference = 69414A0C23C33FBE0056FBDF /* MovieSwiftTV.app */;
+			productReference = 69414A0C23C33FBE0056FBDF /* SwiftLocalNewsTV.app */;
 			productType = "com.apple.product-type.application";
 		};
-		69FFAF7B22A99F1100801F3C /* MovieSwift */ = {
+		69FFAF7B22A99F1100801F3C /* SwiftLocalNews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69FFAF9022A99F1200801F3C /* Build configuration list for PBXNativeTarget "MovieSwift" */;
+			buildConfigurationList = 69FFAF9022A99F1200801F3C /* Build configuration list for PBXNativeTarget "SwiftLocalNews" */;
 			buildPhases = (
 				69FFAF7822A99F1100801F3C /* Sources */,
 				69FFAF7922A99F1100801F3C /* Frameworks */,
@@ -829,14 +829,14 @@
 			);
 			dependencies = (
 			);
-			name = MovieSwift;
+			name = SwiftLocalNews;
 			packageProductDependencies = (
 				69FB7D7A22E7957200C55F01 /* SwiftUIFlux */,
 				69D3320F23ED608400C8A20C /* Backend */,
 				69D3321123ED608400C8A20C /* UI */,
 			);
 			productName = MovieSwift;
-			productReference = 69FFAF7C22A99F1100801F3C /* MovieSwift.app */;
+			productReference = 69FFAF7C22A99F1100801F3C /* SwiftLocalNews.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -847,7 +847,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1200;
-				ORGANIZATIONNAME = "Thomas Ricouard";
+				ORGANIZATIONNAME = "McNaughton Media";
 				TargetAttributes = {
 					69414A0B23C33FBE0056FBDF = {
 						CreatedOnToolsVersion = 11.3;
@@ -857,7 +857,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 69FFAF7722A99F1100801F3C /* Build configuration list for PBXProject "MovieSwift" */;
+			buildConfigurationList = 69FFAF7722A99F1100801F3C /* Build configuration list for PBXProject "SwiftLocalNews" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -873,8 +873,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				69FFAF7B22A99F1100801F3C /* MovieSwift */,
-				69414A0B23C33FBE0056FBDF /* MovieSwiftTV */,
+				69FFAF7B22A99F1100801F3C /* SwiftLocalNews */,
+				69414A0B23C33FBE0056FBDF /* SwiftLocalNewsTV */,
 			);
 		};
 /* End PBXProject section */
@@ -1245,7 +1245,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.7;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thomasricouard.film-o-matic";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davisenterprise.swift;
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "maccatalyst.com.thomasricouard.film-o-matic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1279,7 +1279,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.7;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thomasricouard.film-o-matic";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davisenterprise.swift;
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "maccatalyst.com.thomasricouard.film-o-matic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1294,7 +1294,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		69414A1D23C33FC10056FBDF /* Build configuration list for PBXNativeTarget "MovieSwiftTV" */ = {
+		69414A1D23C33FC10056FBDF /* Build configuration list for PBXNativeTarget "SwiftLocalNewsTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69414A1B23C33FC10056FBDF /* Debug */,
@@ -1303,7 +1303,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69FFAF7722A99F1100801F3C /* Build configuration list for PBXProject "MovieSwift" */ = {
+		69FFAF7722A99F1100801F3C /* Build configuration list for PBXProject "SwiftLocalNews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69FFAF8E22A99F1200801F3C /* Debug */,
@@ -1312,7 +1312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69FFAF9022A99F1200801F3C /* Build configuration list for PBXNativeTarget "MovieSwift" */ = {
+		69FFAF9022A99F1200801F3C /* Build configuration list for PBXNativeTarget "SwiftLocalNews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69FFAF9122A99F1200801F3C /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "69FFAF7B22A99F1100801F3C"
-               BuildableName = "MovieSwift.app"
-               BlueprintName = "MovieSwift"
-               ReferencedContainer = "container:MovieSwift.xcodeproj">
+               BuildableName = "SwiftLocalNews.app"
+               BlueprintName = "SwiftLocalNews"
+               ReferencedContainer = "container:SwiftLocalNews.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69FFAF7B22A99F1100801F3C"
-            BuildableName = "MovieSwift.app"
-            BlueprintName = "MovieSwift"
-            ReferencedContainer = "container:MovieSwift.xcodeproj">
+            BuildableName = "SwiftLocalNews.app"
+            BlueprintName = "SwiftLocalNews"
+            ReferencedContainer = "container:SwiftLocalNews.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69FFAF7B22A99F1100801F3C"
-            BuildableName = "MovieSwift.app"
-            BlueprintName = "MovieSwift"
-            ReferencedContainer = "container:MovieSwift.xcodeproj">
+            BuildableName = "SwiftLocalNews.app"
+            BlueprintName = "SwiftLocalNews"
+            ReferencedContainer = "container:SwiftLocalNews.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
@@ -73,6 +73,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "SwiftLocalNews"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
